@@ -1,2 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources></resources>
+<resources>
+    <string name="name"><b>নাম</b></string>
+    <string name="links"><b>লিঙ্ক</b></string>
+    <string name="google">Google</string>
+    <string name="googlelink">www.google.com</string>
+    <string name="facebook">Facebook</string>
+    <string name="facebooklink">www.facebook.com</string>
+    <string name="twitter">Twitter</string>
+    <string name="twitterlink">www.twitter.com</string>
+    <string name="linktitle">গুরুত্বপূর্ণ লিঙ্কসমূহ</string>
+</resources>
