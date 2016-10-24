@@ -1,2 +1,57 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources></resources>
+<resources>
+
+    <string name="test_list_label">রোগনির্ণয় পরীক্ষাসমূহ</string>
+
+    <string name="test_name_label">পরীক্ষার নামঃ </string>
+    <string name="test_fee_label">পরীক্ষার ফীঃ </string>
+    <string name="test_place_label">পরীক্ষার স্থানঃ </string>
+    <string name="test_pre_label">পরীক্ষার পূর্বশর্তঃ </string>
+    <string name="test_details_label">পরীক্ষার বিস্তারিত</string>
+
+    <string name="searchable">পরীক্ষা খুঁজুন </string>
+
+
+    <string name="test_name">পরীক্ষার নাম</string>
+    <string name="test_fee">পরীক্ষার ফী</string>
+    <string name="taka">\u09F3</string>
+    <string name="free">ফ্রী</string>
+    <string name="search_test">Search Test</string>
+
+    <string-array name="test_names">
+        <item>Blood Group</item>
+        <item>ECG</item>
+        <item>X-Ray</item>
+        <item>FH6</item>
+        <item>TH6</item>
+        <item>Cough Test</item>
+    </string-array>
+
+    <string-array name="test_fee">
+        <item>৫০</item>
+        <item>৮০</item>
+        <item>৩০০</item>
+        <item>৬০০ </item>
+        <item>৬০০</item>
+        <item>ফ্রী</item>
+    </string-array>
+
+    <string-array name="test_place">
+        <item>নতুন আউটডোর বিল্ডিং, ৪র্থ তলা, রুম নাম্বার ৪০১</item>
+        <item>নতুন আউটডোর বিল্ডিং, ১ম তলা, রুম নাম্বার ১০৪</item>
+        <item>রেডিওলজি বিভাগ, পুরাতন বিল্ডিং ৪র্থ তলা, রুম নাম্বার ৪১৬</item>
+        <item>পরমানু চিকিৎসা কেন্দ্র, রুম ১০৩</item>
+        <item>পরমানু চিকিৎসা কেন্দ্র, রুম নাম্বার ১০৫</item>
+        <item>পুরাতন বিল্ডিং, নীচতলা, রুম নাম্বার ১২০</item>
+
+    </string-array>
+
+    <string-array name="test_prerequisite">
+        <item>নাই</item>
+        <item>ডাক্তার ডিকম্নডেশন</item>
+        <item>ডাক্তার ডিকম্নডেশন</item>
+        <item>ডাক্তার ডিকম্নডেশন</item>
+        <item>ডাক্তার ডিকম্নডেশন</item>
+        <item>নাই</item>
+    </string-array>
+</resources>
