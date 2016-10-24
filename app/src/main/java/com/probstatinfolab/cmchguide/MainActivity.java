@@ -12,6 +12,7 @@ import android.widget.AdapterView;
 import android.widget.GridView;
 
 import com.probstatinfolab.cmchguide.complain.ComplainActivity;
+import com.probstatinfolab.cmchguide.contact.ContactActivity;
 import com.probstatinfolab.cmchguide.links.LinkActivity;
 
 import java.util.ArrayList;
@@ -68,13 +69,12 @@ public class MainActivity extends AppCompatActivity {
 
                 }else if(position == 7){
 
-
                 }else if(position == 8){
                     Intent intent = new Intent(MainActivity.this, ComplainActivity.class);
                     startActivity(intent);
                 }else if(position == 9){
-
-
+                    Intent intent = new Intent(MainActivity.this, ContactActivity.class);
+                    startActivity(intent);
                 }else if(position == 10){
 
 

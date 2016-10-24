@@ -19,7 +19,8 @@
             </intent-filter>
         </activity>
         <activity android:name=".links.LinkActivity" />
-        <activity android:name=".complain.ComplainActivity"></activity>
+        <activity android:name=".complain.ComplainActivity" />
+        <activity android:name=".contact.ContactActivity"></activity>
     </application>
 
 </manifest>

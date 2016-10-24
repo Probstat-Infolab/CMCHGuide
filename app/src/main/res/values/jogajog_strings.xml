@@ -1,2 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources></resources>
+<resources>
+    <string name="cantactTitle">যোগাযোগ</string>
+    <string name="rabiul">রবিউল</string>
+    <string name="rabiulnumber">01521485243</string>
+    <string name="rony">রনি</string>
+    <string name="ronynumber">01515219441</string>
+</resources>
