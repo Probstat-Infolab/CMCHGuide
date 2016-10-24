@@ -3,8 +3,6 @@ package com.probstatinfolab.cmchguide;
 import android.content.Intent;
 import android.content.res.Resources;
 import android.os.Bundle;
-import android.support.design.widget.FloatingActionButton;
-import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.View;
@@ -13,6 +11,7 @@ import android.view.MenuItem;
 import android.widget.AdapterView;
 import android.widget.GridView;
 
+import com.probstatinfolab.cmchguide.complain.ComplainActivity;
 import com.probstatinfolab.cmchguide.links.LinkActivity;
 
 import java.util.ArrayList;
@@ -71,8 +70,8 @@ public class MainActivity extends AppCompatActivity {
 
 
                 }else if(position == 8){
-
-
+                    Intent intent = new Intent(MainActivity.this, ComplainActivity.class);
+                    startActivity(intent);
                 }else if(position == 9){
 
 

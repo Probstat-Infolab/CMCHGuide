@@ -113,7 +113,7 @@
                         android:layout_weight="1"
                         android:gravity="left"
                         android:text="@string/bma"
-                        android:textSize="16sp" />
+                        android:textSize="14sp" />
 
                     <TextView
                         android:layout_width="wrap_content"

@@ -8,11 +8,9 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-
         <activity
             android:name=".MainActivity"
             android:label="@string/main_activity_label"
-
             android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -20,7 +18,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".links.LinkActivity"></activity>
+        <activity android:name=".links.LinkActivity" />
+        <activity android:name=".complain.ComplainActivity"></activity>
     </application>
 
 </manifest>

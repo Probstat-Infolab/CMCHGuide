@@ -1,2 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources></resources>
+<resources>
+    <string name="complainTitle">অভিযোগ</string>
+    <string name="amrit">অমৃত</string>
+    <string name="amritnumber">01857615005</string>
+    <string name="lolit">ললিত</string>
+    <string name="lolitemail">lolitbhattacharjee@yahoo.com</string>
+</resources>
