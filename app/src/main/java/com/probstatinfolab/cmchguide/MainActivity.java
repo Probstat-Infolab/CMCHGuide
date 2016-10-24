@@ -13,6 +13,8 @@ import android.view.MenuItem;
 import android.widget.AdapterView;
 import android.widget.GridView;
 
+import com.probstatinfolab.cmchguide.links.LinkActivity;
+
 import java.util.ArrayList;
 
 public class MainActivity extends AppCompatActivity {
@@ -81,10 +83,9 @@ public class MainActivity extends AppCompatActivity {
 
 
                 }else if(position == 12){
-
-
+                    Intent intent = new Intent(MainActivity.this, LinkActivity.class);
+                    startActivity(intent);
                 }else if(position == 13){
-
 
                 }else if(position == 14){
 
