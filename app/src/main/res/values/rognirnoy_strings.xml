@@ -16,7 +16,7 @@
     <string name="test_fee">পরীক্ষার ফী</string>
     <string name="taka">\u09F3</string>
     <string name="free">ফ্রী</string>
-    <string name="search_test">Search Test</string>
+    <string name="search_test">পরীক্ষা খুঁজুন</string>
 
     <string-array name="test_names">
         <item>Blood Group</item>
