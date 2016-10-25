@@ -1,6 +1,7 @@
 <resources>
 
     <string name="title_activity_seba">সেবা</string>
+
     <string-array name="seba_options">
         <item>আউটডোর সেবা পেতে করনীয়সমূহ</item>
         <item>ইমার্জেন্সি  সেবা পেতে করনীয়সমূহ</item>

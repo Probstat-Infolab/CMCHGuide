@@ -15,6 +15,8 @@ import com.probstatinfolab.cmchguide.complain.ComplainActivity;
 import com.probstatinfolab.cmchguide.contact.ContactActivity;
 import com.probstatinfolab.cmchguide.links.LinkActivity;
 
+import com.probstatinfolab.sheba.SebaActivity;
+
 import java.util.ArrayList;
 
 public class MainActivity extends AppCompatActivity {
@@ -48,6 +50,10 @@ public class MainActivity extends AppCompatActivity {
                 //Toast.makeText(getApplicationContext(), options.get(position).getName() + " Option Clicked", Toast.LENGTH_SHORT).show();
                 if(position == 0){
 
+                    Intent intent = new Intent(MainActivity.this, SebaActivity.class);
+                    /*intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);*/
+                    startActivity(intent);
+                    //finish();
 
                 } else if(position == 1){
 
