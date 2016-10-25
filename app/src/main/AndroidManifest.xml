@@ -22,8 +22,25 @@
             android:name="com.probstatinfolab.sheba.SebaActivity"
             android:label="@string/title_activity_seba"
             android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+        <activity
+            android:name="com.probstatinfolab.rognirnoy.TestListActivity"
+            android:label="@string/test_list_label">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
 
-            <meta-data android:name="android.support.PARENT_ACTIVITY" android:value=".MainActivity"></meta-data>
+            <meta-data android:name="android.app.searchable"
+                android:resource="@xml/searchable"/>
+        </activity>
+        <activity android:name="com.probstatinfolab.rognirnoy.TestDetailsActivity">
+
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.probstatinfolab.rognirnoy.TestListActivity" />
 
         </activity>
         <activity android:name=".links.LinkActivity" />

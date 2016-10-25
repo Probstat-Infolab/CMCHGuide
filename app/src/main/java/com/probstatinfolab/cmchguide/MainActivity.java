@@ -11,6 +11,7 @@ import android.view.MenuItem;
 import android.widget.AdapterView;
 import android.widget.GridView;
 
+import com.probstatinfolab.rognirnoy.TestListActivity;
 import com.probstatinfolab.cmchguide.complain.ComplainActivity;
 import com.probstatinfolab.cmchguide.contact.ContactActivity;
 import com.probstatinfolab.cmchguide.links.LinkActivity;
@@ -60,6 +61,9 @@ public class MainActivity extends AppCompatActivity {
 
                 } else if(position == 2){
 
+                    Intent intent = new Intent(MainActivity.this, TestListActivity.class);
+                    /*intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);*/
+                    startActivity(intent);
 
                 }else if(position == 3){
 
