@@ -3,8 +3,6 @@ package com.probstatinfolab.cmchguide;
 import android.content.Intent;
 import android.content.res.Resources;
 import android.os.Bundle;
-import android.support.design.widget.FloatingActionButton;
-import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.View;
@@ -13,7 +11,7 @@ import android.view.MenuItem;
 import android.widget.AdapterView;
 import android.widget.GridView;
 
-import com.probstatinfolab.proshnottor.ProsnottorActivity;
+import com.probstatinfolab.proshnottor.ProshnottorActivity;
 import com.probstatinfolab.rognirnoy.TestListActivity;
 import com.probstatinfolab.sheba.SebaActivity;
 import com.probstatinfolab.tottho.TotthoActivity;
@@ -75,7 +73,7 @@ public class MainActivity extends AppCompatActivity {
 
                 }else if(position == 5){
 
-                    Intent intent = new Intent(MainActivity.this, ProsnottorActivity.class);
+                    Intent intent = new Intent(MainActivity.this, ProshnottorActivity.class);
                     startActivity(intent);
 
 
