@@ -11,7 +11,7 @@ import android.view.MenuItem;
 import android.widget.AdapterView;
 import android.widget.GridView;
 
-import com.probstatinfolab.proshnottor.ProsnottorActivity;
+import com.probstatinfolab.proshnottor.ProshnottorActivity;
 import com.probstatinfolab.rognirnoy.TestListActivity;
 import com.probstatinfolab.cmchguide.complain.ComplainActivity;
 import com.probstatinfolab.cmchguide.contact.ContactActivity;
@@ -77,7 +77,7 @@ public class MainActivity extends AppCompatActivity {
 
                 }else if(position == 5){
 
-                    Intent intent = new Intent(MainActivity.this, ProsnottorActivity.class);
+                    Intent intent = new Intent(MainActivity.this, ProshnottorActivity.class);
                     startActivity(intent);
 
 

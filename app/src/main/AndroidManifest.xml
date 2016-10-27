@@ -36,7 +36,9 @@
                 android:name="android.app.searchable"
                 android:resource="@xml/searchable" />
         </activity>
-        <activity android:name="com.probstatinfolab.rognirnoy.TestDetailsActivity">
+
+        <activity android:name="com.probstatinfolab.rognirnoy.TestDetailsActivity"
+            android:label="@string/test_details_label">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.probstatinfolab.rognirnoy.TestListActivity" />
@@ -54,7 +56,13 @@
                 android:value=".MainActivity" />
         </activity>
 
-        <activity android:name="com.probstatinfolab.proshnottor.ProsnottorActivity"></activity>
+        <activity android:name="com.probstatinfolab.proshnottor.ProshnottorActivity"
+            android:label="@string/prosnottor_activity_level">
+
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
     </application>
 
 </manifest>
