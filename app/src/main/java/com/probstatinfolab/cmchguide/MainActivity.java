@@ -13,8 +13,10 @@ import android.view.MenuItem;
 import android.widget.AdapterView;
 import android.widget.GridView;
 
+import com.probstatinfolab.proshnottor.ProsnottorActivity;
 import com.probstatinfolab.rognirnoy.TestListActivity;
 import com.probstatinfolab.sheba.SebaActivity;
+import com.probstatinfolab.tottho.TotthoActivity;
 
 import java.util.ArrayList;
 
@@ -65,11 +67,16 @@ public class MainActivity extends AppCompatActivity {
 
                 }else if(position == 3){
 
+                        Intent intent = new Intent(MainActivity.this, TotthoActivity.class);
+                        startActivity(intent);
 
                 }else if(position == 4){
 
 
                 }else if(position == 5){
+
+                    Intent intent = new Intent(MainActivity.this, ProsnottorActivity.class);
+                    startActivity(intent);
 
 
                 }else if(position == 6){

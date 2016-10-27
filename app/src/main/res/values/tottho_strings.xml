@@ -1,2 +1,45 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources></resources>
+<resources>
+
+    <string name="tottho_activity_level">তথ্য</string>
+    <string name="tottho_map_dekhan">ম্যাপে দেখুন</string>
+    <string name="tottho_seba_somuho">সেবাঃ </string>
+    <string name="tottho_obosthan">অবস্থানঃ </string>
+
+    <string-array name="outdoor_department_names">
+        <item>দন্ত বহিঃবিভাগ</item>
+        <item>মেডিসিন বহিঃবিভাগ</item>
+        <item>শিশু বহিঃবিভাগ</item>
+    </string-array>
+
+    <string-array name="outdoor_department_services">
+        <item>দাঁতের সকল স্বাভাবিক চিকিৎসা  দেওয়া হয়। </item>
+        <item>সকল ধরনের স্বাভাবিক সমস্যার যেমন জ্বর, সর্দি-কাশি ইত্যাদি চিকিৎসা দেওয়া হয়। </item>
+        <item>শিশুদের সকস শারীরিক সমস্যার চিকিৎসা দেওয়া হয়।</item>
+    </string-array>
+
+    <string-array name="outdoor_department_position">
+        <item>পুরাতন বহিঃবিভাগ বিল্ডিং, প্সহচিম ব্লক। দ্বিতিয় তলা, রুম নাম্বার ২২০। </item>
+        <item>নতুন বহিঃবিভাগ বিন্ডিং, নীচতলা। ১০১ নং রুম।</item>
+        <item>পুরাতন বহিঃবিভাগ বিল্ডিং, প্সহচিম ব্লক। দ্বিতিয় তলা, রুম নাম্বার ২২০।</item>
+    </string-array>
+
+    <string-array name="indoor_department_names">
+        <item>হৃদরোগ ওয়ার্ড</item>
+        <item>দন্ত ওয়ার্ড</item>
+        <item>রেডিওলজি ওয়ার্ড</item>
+    </string-array>
+
+    <string-array name="indoor_department_services">
+        <item>দাঁতের সকল স্বাভাবিক চিকিৎসা  দেওয়া হয়। </item>
+        <item>সকল ধরনের স্বাভাবিক সমস্যার যেমন জ্বর, সর্দি-কাশি ইত্যাদি চিকিৎসা দেওয়া হয়। </item>
+        <item>শিশুদের সকস শারীরিক সমস্যার চিকিৎসা দেওয়া হয়।</item>
+    </string-array>
+
+    <string-array name="indoor_department_position">
+        <item>পুরাতন বহিঃবিভাগ বিল্ডিং, প্সহচিম ব্লক। দ্বিতিয় তলা, রুম নাম্বার ২২০। </item>
+        <item>নতুন বহিঃবিভাগ বিন্ডিং, নীচতলা। ১০১ নং রুম।</item>
+        <item>পুরাতন বহিঃবিভাগ বিল্ডিং, প্সহচিম ব্লক। দ্বিতিয় তলা, রুম নাম্বার ২২০।</item>
+    </string-array>
+
+</resources>
