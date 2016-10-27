@@ -12,15 +12,21 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.probstatinfolab.cmchguide.complain.ComplainActivity">
 
-    <TextView
-        android:id="@+id/textView"
+    <android.support.v7.widget.CardView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@android:color/holo_blue_light"
-        android:gravity="center"
-        android:text="@string/cantactTitle"
-        android:textColor="@android:color/holo_red_light"
-        android:textSize="22dp" />
+        android:layout_marginBottom="16dp">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/holo_blue_light"
+            android:gravity="center"
+            android:text="@string/cantactTitle"
+            android:textColor="@android:color/holo_red_light"
+            android:textSize="22sp" />
+    </android.support.v7.widget.CardView>
 
     <ScrollView
         android:layout_width="match_parent"
@@ -34,7 +40,8 @@
 
             <android.support.v7.widget.CardView
                 android:layout_width="match_parent"
-                android:layout_height="match_parent">
+                android:layout_height="match_parent"
+                android:layout_marginBottom="10dp">
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -55,29 +62,33 @@
                             android:layout_weight="1"
                             android:text="@string/amrit"
                             android:textColor="@android:color/black"
-                            android:textSize="20dp" />
+                            android:textSize="20sp" />
 
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="0dp"
                             android:layout_weight="1"
+                            android:autoLink="phone"
                             android:text="@string/amritnumber"
                             android:textColor="#0000FF"
-                            android:textSize="16dp" />
+                            android:textSize="16sp" />
                     </LinearLayout>
 
                     <ImageButton
                         android:layout_width="wrap_content"
                         android:layout_height="80dp"
                         android:layout_weight="1"
+                        android:contentDescription="@string/call"
                         android:onClick="callAmrit"
+                        android:scaleType="fitXY"
                         app:srcCompat="@drawable/call" />
                 </LinearLayout>
             </android.support.v7.widget.CardView>
 
             <android.support.v7.widget.CardView
                 android:layout_width="match_parent"
-                android:layout_height="match_parent">
+                android:layout_height="match_parent"
+                android:layout_marginBottom="10dp">
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -98,29 +109,33 @@
                             android:layout_weight="1"
                             android:text="@string/rabiul"
                             android:textColor="@android:color/black"
-                            android:textSize="20dp" />
+                            android:textSize="20sp" />
 
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="0dp"
                             android:layout_weight="1"
+                            android:autoLink="phone"
                             android:text="@string/rabiulnumber"
                             android:textColor="#0000FF"
-                            android:textSize="16dp" />
+                            android:textSize="16sp" />
                     </LinearLayout>
 
                     <ImageButton
                         android:layout_width="wrap_content"
                         android:layout_height="80dp"
                         android:layout_weight="1"
+                        android:contentDescription="@string/call"
                         android:onClick="callRabiul"
+                        android:scaleType="fitXY"
                         app:srcCompat="@drawable/call" />
                 </LinearLayout>
             </android.support.v7.widget.CardView>
 
             <android.support.v7.widget.CardView
                 android:layout_width="match_parent"
-                android:layout_height="match_parent">
+                android:layout_height="match_parent"
+                android:layout_marginBottom="10dp">
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -141,22 +156,25 @@
                             android:layout_weight="1"
                             android:text="@string/rony"
                             android:textColor="@android:color/black"
-                            android:textSize="20dp" />
+                            android:textSize="20sp" />
 
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="0dp"
                             android:layout_weight="1"
+                            android:autoLink="phone"
                             android:text="@string/ronynumber"
                             android:textColor="#0000FF"
-                            android:textSize="16dp" />
+                            android:textSize="16sp" />
                     </LinearLayout>
 
                     <ImageButton
                         android:layout_width="wrap_content"
                         android:layout_height="80dp"
                         android:layout_weight="1"
+                        android:contentDescription="@string/call"
                         android:onClick="callRony"
+                        android:scaleType="fitXY"
                         app:srcCompat="@drawable/call" />
                 </LinearLayout>
             </android.support.v7.widget.CardView>

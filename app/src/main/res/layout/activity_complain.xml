@@ -13,16 +13,21 @@
     tools:context="com.probstatinfolab.cmchguide.complain.ComplainActivity">
 
 
-    <TextView
-        android:id="@+id/textView3"
+    <android.support.v7.widget.CardView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="10dp"
-        android:background="@android:color/black"
-        android:gravity="center"
-        android:text="@string/complainTitle"
-        android:textColor="@android:color/white"
-        android:textSize="24dp" />
+        android:layout_marginBottom="16dp">
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/black"
+            android:gravity="center"
+            android:text="@string/complainTitle"
+            android:textColor="@android:color/white"
+            android:textSize="24sp" />
+    </android.support.v7.widget.CardView>
 
     <ScrollView
         android:layout_width="match_parent"
@@ -36,7 +41,7 @@
             <android.support.v7.widget.CardView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_margin="5dp">
+                android:layout_marginBottom="10dp">
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -55,7 +60,7 @@
                             android:layout_height="0dp"
                             android:layout_weight="1"
                             android:text="@string/amrit"
-                            android:textSize="22dp" />
+                            android:textSize="22sp" />
 
                         <TextView
                             android:layout_width="match_parent"
@@ -63,14 +68,15 @@
                             android:layout_weight="1"
                             android:autoLink="phone"
                             android:text="@string/amritnumber"
-                            android:textSize="18dp" />
+                            android:textSize="18sp" />
                     </LinearLayout>
 
                     <ImageButton
                         android:id="@+id/callimageButton"
                         android:layout_width="0dp"
-                        android:layout_height="50dp"
+                        android:layout_height="60dp"
                         android:layout_weight="1"
+                        android:contentDescription="@string/call"
                         android:onClick="call"
                         android:scaleType="fitXY"
                         app:srcCompat="@drawable/call" />
@@ -80,7 +86,7 @@
             <android.support.v7.widget.CardView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_margin="5dp">
+                android:layout_marginBottom="10dp">
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -99,7 +105,7 @@
                             android:layout_height="0dp"
                             android:layout_weight="1"
                             android:text="@string/lolit"
-                            android:textSize="22dp" />
+                            android:textSize="22sp" />
 
                         <TextView
                             android:layout_width="match_parent"
@@ -107,14 +113,15 @@
                             android:layout_weight="1"
                             android:autoLink="all"
                             android:text="@string/lolitemail"
-                            android:textSize="18dp" />
+                            android:textSize="18sp" />
                     </LinearLayout>
 
                     <ImageButton
                         android:id="@+id/emailimageButton"
                         android:layout_width="0dp"
-                        android:layout_height="50dp"
+                        android:layout_height="60dp"
                         android:layout_weight="1"
+                        android:contentDescription="@string/email"
                         android:onClick="email"
                         android:scaleType="fitXY"
                         app:srcCompat="@drawable/mail" />

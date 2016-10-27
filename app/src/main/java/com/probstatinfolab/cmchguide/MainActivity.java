@@ -11,6 +11,7 @@ import android.view.MenuItem;
 import android.widget.AdapterView;
 import android.widget.GridView;
 
+import com.probstatinfolab.map.MapActivity;
 import com.probstatinfolab.proshnottor.ProshnottorActivity;
 import com.probstatinfolab.rognirnoy.TestListActivity;
 import com.probstatinfolab.cmchguide.complain.ComplainActivity;
@@ -51,62 +52,63 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
                 //Toast.makeText(getApplicationContext(), options.get(position).getName() + " Option Clicked", Toast.LENGTH_SHORT).show();
-                if(position == 0){
+                if (position == 0) {
 
                     Intent intent = new Intent(MainActivity.this, SebaActivity.class);
                     /*intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);*/
                     startActivity(intent);
                     //finish();
 
-                } else if(position == 1){
+                } else if (position == 1) {
 
 
-                } else if(position == 2){
+                } else if (position == 2) {
 
                     Intent intent = new Intent(MainActivity.this, TestListActivity.class);
                     /*intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);*/
                     startActivity(intent);
 
-                }else if(position == 3){
+                } else if (position == 3) {
 
-                        Intent intent = new Intent(MainActivity.this, TotthoActivity.class);
-                        startActivity(intent);
+                    Intent intent = new Intent(MainActivity.this, TotthoActivity.class);
+                    startActivity(intent);
 
-                }else if(position == 4){
+                } else if (position == 4) {
+                    Intent intent = new Intent(MainActivity.this, MapActivity.class);
+                    startActivity(intent);
 
-
-                }else if(position == 5){
+                } else if (position == 5) {
 
                     Intent intent = new Intent(MainActivity.this, ProshnottorActivity.class);
                     startActivity(intent);
 
 
-                }else if(position == 6){
+                } else if (position == 6) {
 
 
-                }else if(position == 7){
+                } else if (position == 7) {
 
-                }else if(position == 8){
+                } else if (position == 8) {
                     Intent intent = new Intent(MainActivity.this, ComplainActivity.class);
                     startActivity(intent);
-                }else if(position == 9){
+                } else if (position == 9) {
                     Intent intent = new Intent(MainActivity.this, ContactActivity.class);
                     startActivity(intent);
-                }else if(position == 10){
+                } else if (position == 10) {
 
 
-                }else if(position == 11){
+                } else if (position == 11) {
 
 
-                }else if(position == 12){
+                } else if (position == 12) {
                     Intent intent = new Intent(MainActivity.this, LinkActivity.class);
                     startActivity(intent);
-                }else if(position == 13){
+                } else if (position == 13) {
 
-                }else if(position == 14){
+                } else if (position == 14) {
 
 
-                }else if(position == 15) {
+                } else if (position == 15) {
 
                 }
             }
@@ -131,9 +133,9 @@ public class MainActivity extends AppCompatActivity {
         //noinspection SimplifiableIfStatement
         if (id == R.id.action_about) {
             return true;
-        }else if (id == R.id.action_share) {
+        } else if (id == R.id.action_share) {
 
-        }else if (id == R.id.action_rate) {
+        } else if (id == R.id.action_rate) {
             return true;
         }
 
