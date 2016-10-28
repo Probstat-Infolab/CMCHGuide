@@ -2,6 +2,7 @@ package com.probstatinfolab.cmchguide.complain;
 
 import android.content.Intent;
 import android.net.Uri;
+import android.support.v4.app.NavUtils;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.MenuItem;
@@ -21,6 +22,7 @@ public class ComplainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_complain);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        getSupportActionBar().setHomeButtonEnabled(true);
     }
 
     public void call(View view) {
@@ -46,12 +48,15 @@ public class ComplainActivity extends AppCompatActivity {
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
+        // Handle action bar item clicks here. The action bar will
+        // automatically handle clicks on the Home/Up button, so long
+        // as you specify a parent activity in AndroidManifest.xml.
         int id = item.getItemId();
 
+        //noinspection SimplifiableIfStatement
         if (id == android.R.id.home) {
-            Intent intent = new Intent(ComplainActivity.this, MainActivity.class);
-            startActivity(intent);
-            finish();
+
+            NavUtils.navigateUpFromSameTask(this);
         }
 
         return super.onOptionsItemSelected(item);
@@ -60,8 +65,6 @@ public class ComplainActivity extends AppCompatActivity {
     @Override
     public void onBackPressed() {
         super.onBackPressed();
-        Intent intent = new Intent(ComplainActivity.this, MainActivity.class);
-        startActivity(intent);
-        finish();
+        NavUtils.navigateUpFromSameTask(this);
     }
 }

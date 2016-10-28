@@ -17,16 +17,20 @@ public class LinkActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_link);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        getSupportActionBar().setHomeButtonEnabled(true);
     }
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
+        // Handle action bar item clicks here. The action bar will
+        // automatically handle clicks on the Home/Up button, so long
+        // as you specify a parent activity in AndroidManifest.xml.
         int id = item.getItemId();
 
+        //noinspection SimplifiableIfStatement
         if (id == android.R.id.home) {
-            Intent intent = new Intent(LinkActivity.this, MainActivity.class);
-            startActivity(intent);
-            finish();
+
+            NavUtils.navigateUpFromSameTask(this);
         }
 
         return super.onOptionsItemSelected(item);
@@ -35,8 +39,6 @@ public class LinkActivity extends AppCompatActivity {
     @Override
     public void onBackPressed() {
         super.onBackPressed();
-        Intent intent = new Intent(LinkActivity.this, MainActivity.class);
-        startActivity(intent);
-        finish();
+        NavUtils.navigateUpFromSameTask(this);
     }
 }

@@ -43,9 +43,21 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.probstatinfolab.rognirnoy.TestListActivity" />
         </activity>
-        <activity android:name=".links.LinkActivity" />
-        <activity android:name=".complain.ComplainActivity" />
-        <activity android:name=".contact.ContactActivity" />
+        <activity android:name=".links.LinkActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+        <activity android:name=".complain.ComplainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+        <activity android:name=".contact.ContactActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
         <activity
             android:name="com.probstatinfolab.tottho.TotthoActivity"
             android:label="@string/tottho_activity_level"
@@ -61,7 +73,11 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".MainActivity" />
         </activity>
-        <activity android:name="com.probstatinfolab.map.MapActivity"></activity>
+        <activity android:name="com.probstatinfolab.map.MapActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
     </application>
 
 </manifest>
